@@ -4,6 +4,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
 import { MatDividerModule } from '@angular/material/divider';
+import { MatFormFieldModule } from '@angular/material/form-field';
 
 
 
@@ -14,13 +15,15 @@ import { MatDividerModule } from '@angular/material/divider';
     MatToolbarModule,
     MatInputModule,
     MatButtonModule,
-    MatDividerModule
+    MatDividerModule,
+    MatFormFieldModule
   ],
   exports: [
     MatToolbarModule,
     MatInputModule,
     MatButtonModule,
-    MatDividerModule
+    MatDividerModule,
+    MatFormFieldModule
   ]
 })
 export class MaterialModule { }
