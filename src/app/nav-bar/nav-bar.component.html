@@ -3,13 +3,25 @@
     <div class="logo">
         <p>FC</p>
     </div>
+    <div>
+        <form id="search">
+            <div class="find">
+                <i class="fas fa-search"></i>
+                <input matInput type="text" class="product_search" placeholder="Search Products">
+                <button class="reset" type="button" aria-label="Reset">
+                    <i class="fas fa-close"></i>
+                </button>
+                <button mat-button>Search</button>
+            </div>
+        </form>
+    </div>
     
     <div class="nav-links">
         <ul>
             <li><a [routerLink]="">Home</a></li>
-            <li><a [routerLink]="">Products</a></li>
-            <li><a [routerLink]="">Account</a></li>
-            <li><a [routerLink]="">Cart</a></li>
+            <li><a [routerLink]=""><i class="fab fa-microsoft"></i>Products</a></li>
+            <li><a [routerLink]=""><i class="fas fa-user"></i> Account</a></li>
+            <li><a [routerLink]=""><i class="fas fa-shopping-cart"></i>Cart</a></li>
         </ul>
     </div>
 </mat-toolbar>
