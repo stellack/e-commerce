@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { MaterialModule } from '../../shared/modules/material.module';
 
 @Component({
-  selector: 'app-nav-bar',
+  selector: 'nav-bar',
   templateUrl: './nav-bar.component.html',
   styleUrls: ['./nav-bar.component.scss']
 })
