@@ -7,13 +7,15 @@ import { HomeComponent } from './pages/home/home.component';
 import { CartComponent } from './pages/cart/cart.component';
 import { SaleComponent } from './pages/sale/sale.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NavBarComponent } from './navigation/nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     CartComponent,
-    SaleComponent
+    SaleComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
