@@ -4,16 +4,17 @@ import { HomeComponent } from './pages/home/home.component';
 import { CartComponent } from './pages/cart/cart.component';
 import { SaleComponent } from './pages/sale/sale.component';
 import { NewProductComponent } from './components/new-product/new-product.component';
+import { ProductsListComponent } from './components/products-list/products-list.component';
 
 const routes: Routes = [
   {
     path: "**",
     pathMatch: 'full',
-    component: HomeComponent
+    component: ProductsListComponent
   },
   {
     path: 'products',
-    component: HomeComponent
+    component: ProductsListComponent
   },
   {
     path: 'cart',
@@ -24,7 +25,7 @@ const routes: Routes = [
     component: SaleComponent
   },
   {
-    path: 'new-product',
+    path: 'add-product',
     component: NewProductComponent
   }
 ];

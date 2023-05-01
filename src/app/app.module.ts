@@ -14,7 +14,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { FooterComponent } from './footer/footer.component';
 import { ProductsListComponent } from './components/products-list/products-list.component';
 import { NewProductComponent } from './components/new-product/new-product.component';
-
+import { MatDialogModule } from '@angular/material/dialog';
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,7 +33,8 @@ import { NewProductComponent } from './components/new-product/new-product.compon
     FormsModule,
     ReactiveFormsModule,
     MaterialModule,
-    HttpClientModule
+    HttpClientModule,
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]
