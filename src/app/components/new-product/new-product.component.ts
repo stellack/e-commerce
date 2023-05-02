@@ -25,7 +25,7 @@ export class NewProductComponent implements OnInit {
       name: ['',Validators.required],
       description: ['',Validators.required],
       price: ['',Validators.required],
-      image: ['',Validators.required]
+      // image: ['',Validators.required]
     });
   }
   // addProduct(){
