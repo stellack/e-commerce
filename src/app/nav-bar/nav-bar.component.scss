@@ -1,6 +1,7 @@
+@import '../shared/styles/global-button';
 
 mat-toolbar{
-    position: absolute;
+    // position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -9,9 +10,22 @@ mat-toolbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #1976;
-    color: white;
-    // font-weight: 600;
+    background-color: #010136;
+    color: #00e6e6;
+    font-size: 1rem;
+    z-index: 1;
+}
+.logo{
+    // color: #660000;
+    // font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-items: center;
+    font-style: oblique;
+    display: flex;
+    flex-direction: column;
+}
+.logo-text{
+    margin: 0 !important;
+    padding:  0 !important;
 }
 ul{
     list-style: none;
@@ -25,3 +39,92 @@ a {
     text-decoration: none;
     padding: 8px 14px;
   }
+// .form-container{
+
+// }
+.search-container{
+    padding: 5%;
+}
+.search-bar{
+    width: 100%;
+    max-width: 700px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    padding: 8px 18px;
+}
+.form-search{
+    display: flex;
+}
+.form-search input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    // padding: 24px 20px;
+}
+.search-form {
+    display: flex;
+    align-items: center;
+}
+.search-btn{
+    margin-left: 10px;
+    // border-radius: 60px;
+    padding-inline: 18px;
+}
+.first-icon, .second-icon{
+    outline: none;
+    border: 0;
+}
+
+  
+//   .product_search {
+//     position: relative;
+//     border: none;
+//     padding: 8px 35px 8px 10px;
+//     line-height: 1.5;
+//     font-size: 16px; 
+//     width:500px;
+//     border-radius: 20px;
+//   }
+  
+//   .product_search::before {
+//     content: "\f002";
+//     font-family: "Font Awesome 5 Free";
+//     font-weight: 900;
+//     position: absolute;
+//     top: 50%;
+//     left: 10px;
+//     transform: translateY(-50%);
+//   }
+  
+//   .product_search::after {
+//     content: "\f00d";
+//     font-family: "Font Awesome 5 Free";
+//     font-weight: 900;
+//     position: absolute;
+//     top: 50%;
+//     right: 10px;
+//     transform: translateY(-50%);
+//     display: none;
+//   }
+  
+//   .product_search:focus {
+//     outline: none;
+//   }
+  
+//   .product_search:focus::before {
+//     color: #ccc;
+//   }
+  
+//   .search-btn {
+//     height: 38px;
+//     margin-left: 10px;
+//     border: none;
+//     border-radius: 20px;
+//   }
+//   .fas.fa-search, .fas.fa-close{
+//     position: absolute;
+//   }
+  

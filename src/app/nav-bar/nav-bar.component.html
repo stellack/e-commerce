@@ -1,18 +1,29 @@
 <p>nav-bar works!</p>
 <mat-toolbar>
     <div class="logo">
-        <p>FC</p>
+        <span class="logo-text">Fashion Palace</span>
+        <span class="logo-text" style="font: italic bold 12px/30px Georgia, serif ; color: rgba(248, 5, 5, 0.911);">Your number one shop</span>
     </div>
-    <div>
-        <form id="search">
+    <!-- <div class="form-container">
+        <form id="search" class="search-form">
             <div class="find">
                 <i class="fas fa-search"></i>
                 <input matInput type="text" class="product_search" placeholder="Search Products">
                 <button class="reset" type="button" aria-label="Reset">
                     <i class="fas fa-close"></i>
                 </button>
-                <button mat-button>Search</button>
+                <button mat-button class="btn search-btn">Search</button>
             </div>
+        </form>
+    </div> -->
+    <div class="search-container">
+        <form action="" class="form-search" >
+            <div class="search-bar">
+                <button class="first-icon"><i class="fas fa-search"></i></button>
+                <input type="text" placeholder="Search Product">
+                <button class="second-icon"><i class="fas fa-close"></i></button>
+            </div>
+            <span><button mat-button class="btn search-btn">Search</button></span>
         </form>
     </div>
     

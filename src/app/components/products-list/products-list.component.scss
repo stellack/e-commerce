@@ -1,0 +1,30 @@
+*{
+    font-family:  Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,
+    Helvetica Neue,Arial,sans-serif;
+}
+.product-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+.flex-item{
+    background-color: #5c0404;
+     flex-basis: 23%;
+      padding: 10px;
+      margin: 10px;
+}
+  
+//   .product-item > * {
+   
+   
+//   }
+  
+  .product-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  

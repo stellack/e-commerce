@@ -9,6 +9,8 @@ import { Product } from '../../shared/interfaces/product';
 })
 export class ProductsListComponent implements OnInit {
   products!: Product[];
+  product: any;
+  // product!: Product;
 
   constructor(private productsService: ProductService) { }
 
@@ -17,6 +19,10 @@ export class ProductsListComponent implements OnInit {
         this.products = products;
       });
 
+  }
+  addToCart(product:Product){
+    console.log(this.product,'Added successfully!');
+    
   }
 
 }
