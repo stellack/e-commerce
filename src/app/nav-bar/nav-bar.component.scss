@@ -11,8 +11,9 @@ mat-toolbar{
     align-items: center;
     justify-content: space-between;
     background-color: #010136;
-    color: #00e6e6;
+    color: #15d7f5;
     font-size: 1rem;
+    font-weight: 100;
     z-index: 1;
 }
 .logo{
@@ -39,6 +40,33 @@ a {
     text-decoration: none;
     padding: 8px 14px;
   }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #010136;
+   
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: #15d7f5;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
 // .form-container{
 
 // }
